@@ -25,7 +25,8 @@
                   <input type="password" class="form-control form-control-lg" id="password" placeholder="Password"
                          required v-model="formData.password">
                 </div>
-                <button type="submit" class="btn btn-primary">Submit</button>
+                <router-link to="/sign_in" class="float-right">Sign In</router-link>
+                <button type="submit" class="btn btn-primary btn-lg">Submit</button>
               </form>
             </div>
           </div>
